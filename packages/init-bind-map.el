@@ -12,8 +12,9 @@
 		       "j" 'avy-goto-char
 		       "w w" 'ace-window
 		       "w d" 'ace-delete-window
-		       )
-	    )
-)
+		       "w /" 'evil-window-vsplit
+		       "t" 'eshell
+		       "b" 'helm-buffers-list
+		       )))
 
 (provide 'init-bind-map)

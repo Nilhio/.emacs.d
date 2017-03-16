@@ -1,5 +1,6 @@
 (use-package projectile
-  :ensure t)
+  :ensure t
+  :config (projectile-global-mode t))
 
 (use-package helm
   :ensure t

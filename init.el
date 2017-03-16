@@ -8,12 +8,15 @@
 (menu-bar-mode -1)
 (toggle-scroll-bar -1)
 (tool-bar-mode -1)
+(setq create-lockfiles nil)
 (setq visible-bell 1)
-(setq backup-directory-alist `(("." . "~/.saves")))
+(setq backup-directory-alist `(("." . "~/.emacs_backups")))
 
 ;; Install and init packages
 (add-to-list 'load-path "~/.emacs.d/packages")
 (require 'init-use-package)
+(require 'init-company)
+;; (require 'init-flycheck)
 (require 'init-helm)
 (require 'init-evil)
 (require 'init-bind-map)
@@ -22,6 +25,7 @@
 (require 'init-rust-mode)
 (require 'init-ace-window)
 (require 'init-doom-theme)
+(require 'init-drag-stuff)
 
 ;; Keybindings 
 (add-to-list 'load-path "~/.emacs.d/keybindings")
