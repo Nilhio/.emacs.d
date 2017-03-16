@@ -5,6 +5,9 @@
 (package-initialize)
 
 ;; Configuration
+(menu-bar-mode -1)
+(toggle-scroll-bar -1)
+(tool-bar-mode -1)
 (setq visible-bell 1)
 (setq backup-directory-alist `(("." . "~/.saves")))
 
@@ -15,6 +18,10 @@
 (require 'init-evil)
 (require 'init-bind-map)
 (require 'init-other-packages)
+(require 'init-dashboard)
+(require 'init-rust-mode)
+(require 'init-ace-window)
+(require 'init-doom-theme)
 
 ;; Keybindings 
 (add-to-list 'load-path "~/.emacs.d/keybindings")

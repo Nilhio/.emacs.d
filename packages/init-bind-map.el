@@ -9,7 +9,9 @@
 		       "f" 'helm-find-files
 		       "x" 'helm-M-x
 		       "s" 'helm-swoop
-		       "j j" 'avy-goto-char
+		       "j" 'avy-goto-char
+		       "w w" 'ace-window
+		       "w d" 'ace-delete-window
 		       )
 	    )
 )
