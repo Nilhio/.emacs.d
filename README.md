@@ -1,10 +1,9 @@
 # Information
----
 Personal emacs configuration focused minimalism, load time and modular package control.
 ![](http://i.imgur.com/b7VGWE3.png)
 ## Packages
----
 Packages used in configuration:
+
 | Package | Description |
 | ------ | ------ |
 | [Use-package](https://github.com/jwiegley/use-package) | Package manager for emacs|
@@ -20,7 +19,6 @@ Packages used in configuration:
 | [Drag-stuff](https://github.com/rejeep/drag-stuff.el) | Text editing pacakge to drag words,lines, regions| 
 
 ## Installation
----
 Requires [Emacs 24+](https://www.gnu.org/software/emacs/). After installing emacs run command sequence. (Remove any ~/.emacs.d before cloning repository.)
 ```sh
 $ cd ~/
