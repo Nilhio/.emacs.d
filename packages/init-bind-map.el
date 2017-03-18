@@ -16,8 +16,13 @@
 		       "t" 'eshell
 		       "b b" 'helm-buffers-list
 		       "b d" 'kill-buffer
-		       "<tab>" 'switch-to-next-buffer
-		       "<backtab>" 'switch-to-prev-buffer
+		       "<tab>" 'next-buffer
+		       "<backtab>" 'previous-buffer
+		       "m c" 'cargo-process-build
+		       "m x" 'cargo-process-run
+		       "m t" 'cargo-process-test
+		       "m f" 'cargo-process-fmt
+		       "m d" 'cargo-process-check
 		       )))
 
 (provide 'init-bind-map)

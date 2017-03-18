@@ -8,9 +8,14 @@
 (menu-bar-mode -1)
 (toggle-scroll-bar -1)
 (tool-bar-mode -1)
+(setq make-backup-files nil)
 (setq create-lockfiles nil)
 (setq visible-bell 1)
-(setq backup-directory-alist `(("." . "~/.emacs_backups")))
+;;Save backup files in custom direcotory
+(setq backup-directory-alist
+  `(".*" ,"~/emacs/backups"))
+(setq auto-save-file-name-transforms
+  `((".*" "~/emacs/saves" t)))
 
 ;; Install and init packages
 (add-to-list 'load-path "~/.emacs.d/packages")
@@ -23,10 +28,11 @@
 (require 'init-other-packages)
 (require 'init-dashboard)
 (require 'init-rust-mode)
+(require 'init-cargo)
 (require 'init-ace-window)
 (require 'init-doom-theme)
 (require 'init-drag-stuff)
-(require  'init-markdown-mode)
+(require 'init-markdown-mode)
 
 ;; Keybindings 
 (add-to-list 'load-path "~/.emacs.d/keybindings")
