@@ -1,1 +1,0 @@
-("~/.emacs.d/" "d:/Random/project01/")

@@ -26,6 +26,7 @@
 (require 'init-ace-window)
 (require 'init-doom-theme)
 (require 'init-drag-stuff)
+(require  'init-markdown-mode)
 
 ;; Keybindings 
 (add-to-list 'load-path "~/.emacs.d/keybindings")

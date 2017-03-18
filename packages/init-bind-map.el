@@ -14,7 +14,10 @@
 		       "w d" 'ace-delete-window
 		       "w /" 'evil-window-vsplit
 		       "t" 'eshell
-		       "b" 'helm-buffers-list
+		       "b b" 'helm-buffers-list
+		       "b d" 'kill-buffer
+		       "<tab>" 'switch-to-next-buffer
+		       "<backtab>" 'switch-to-prev-buffer
 		       )))
 
 (provide 'init-bind-map)
