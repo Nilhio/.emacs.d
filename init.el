@@ -11,6 +11,8 @@
 (setq make-backup-files nil)
 (setq create-lockfiles nil)
 (setq visible-bell 1)
+;; Auto reload file from disk
+(global-auto-revert-mode t)
 ;;Save backup files in custom direcotory
 (setq backup-directory-alist
   `(".*" ,"~/emacs/backups"))
