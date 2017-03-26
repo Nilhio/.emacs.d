@@ -35,6 +35,7 @@
 (require 'init-doom-theme)
 (require 'init-drag-stuff)
 (require 'init-markdown-mode)
+(require 'init-dumb-jump)
 
 ;; Keybindings 
 (add-to-list 'load-path "~/.emacs.d/keybindings")
