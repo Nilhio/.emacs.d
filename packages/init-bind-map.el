@@ -16,8 +16,8 @@
 		       "t" 'eshell
 		       "b b" 'helm-buffers-list
 		       "b d" 'kill-buffer
-		       "<tab>" 'next-buffer
-		       "<backtab>" 'previous-buffer
+		       "<tab>" 'next-useful-buffer
+		       "<backtab>" 'previous-useful-buffer
 		       "m c" 'cargo-process-build
 		       "m x" 'cargo-process-run
 		       "m t" 'cargo-process-test
