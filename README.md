@@ -18,6 +18,7 @@ Packages used in configuration:
 | [doom-theme](https://github.com/hlissner/emacs-doom-theme) | Doom theme |
 | [drag-stuff](https://github.com/rejeep/drag-stuff.el) | Text editing pacakge to drag words,lines, regions| 
 | [cargo](https://github.com/kwrooijen/cargo.el) | This package gives you a set of key combinations to perform Cargo tasks within your Rust projects |
+| [dumb-jump](https://github.com/jacktasia/dumb-jump) | For go-to-definition functionality |
 
 ## Installation
 Requires [Emacs 24+](https://www.gnu.org/software/emacs/). After installing emacs run command sequence. (Remove any ~/.emacs.d before cloning repository.)
@@ -26,4 +27,3 @@ $ cd ~/
 $ git clone https://github.com/Nilhio/.emacs.d
 $ emacs
 ```
-
