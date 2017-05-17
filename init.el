@@ -24,7 +24,6 @@
 (require 'init-better-defaults)
 (require 'init-use-package)
 (require 'init-company)
-;; (require 'init-flycheck)
 (require 'init-helm)
 (require 'init-other-packages)
 (require 'init-rust-mode)
@@ -35,8 +34,9 @@
 (require 'init-markdown-mode)
 (require 'init-dumb-jump)
 (require 'init-hydra)
+(require 'init-whitespace)
 
-;; Keybindings 
+;; Keybindings
 (add-to-list 'load-path "~/.emacs.d/keybindings")
 (require 'keybindings)
 
