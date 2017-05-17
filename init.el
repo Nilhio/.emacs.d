@@ -21,14 +21,15 @@
 
 ;; Install and init packages
 (add-to-list 'load-path "~/.emacs.d/packages")
+(require 'init-better-defaults)
 (require 'init-use-package)
 (require 'init-company)
 ;; (require 'init-flycheck)
 (require 'init-helm)
-(require 'init-evil)
+;;(require 'init-evil)
 (require 'init-bind-map)
 (require 'init-other-packages)
-(require 'init-dashboard)
+;;(require 'init-dashboard)
 (require 'init-rust-mode)
 (require 'init-cargo)
 (require 'init-ace-window)
