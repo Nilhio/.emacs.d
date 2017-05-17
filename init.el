@@ -26,10 +26,7 @@
 (require 'init-company)
 ;; (require 'init-flycheck)
 (require 'init-helm)
-;;(require 'init-evil)
-(require 'init-bind-map)
 (require 'init-other-packages)
-;;(require 'init-dashboard)
 (require 'init-rust-mode)
 (require 'init-cargo)
 (require 'init-ace-window)
@@ -37,6 +34,7 @@
 (require 'init-drag-stuff)
 (require 'init-markdown-mode)
 (require 'init-dumb-jump)
+(require 'init-hydra)
 
 ;; Keybindings 
 (add-to-list 'load-path "~/.emacs.d/keybindings")
