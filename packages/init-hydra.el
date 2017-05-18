@@ -29,7 +29,7 @@
   ("k" helm-show-kill-ring "kill-ring")
   ("c" helm-colors "colors" :column "Browse")
   ("g" helm-google-suggest "google")
-  ("k" helm-bookmarks "bookmarks")
+  ("o" helm-bookmarks "bookmarks")
   ("b" helm-buffers-list "buffer list")
   ("p" helm-swoop "swoop" :column "Do")
   ("s" helm-css-scss "css-scss")

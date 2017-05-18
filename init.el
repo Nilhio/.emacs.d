@@ -35,6 +35,7 @@
 (require 'init-dumb-jump)
 (require 'init-hydra)
 (require 'init-whitespace)
+(require 'init-org-mode)
 
 ;; Keybindings
 (add-to-list 'load-path "~/.emacs.d/keybindings")
