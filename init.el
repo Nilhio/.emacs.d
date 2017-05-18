@@ -36,6 +36,7 @@
 (require 'init-hydra)
 (require 'init-whitespace)
 (require 'init-org-mode)
+(require 'init-expand-region)
 
 ;; Keybindings
 (add-to-list 'load-path "~/.emacs.d/keybindings")
