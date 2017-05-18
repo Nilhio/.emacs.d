@@ -39,6 +39,6 @@
 (put 'downcase-region 'disabled nil)              ; Enable downcase-region
 (put 'upcase-region 'disabled nil)                ; Enable upcase-region
 (set-frame-parameter nil 'fullscreen 'maximized)  ; Maximize the frame
+(show-paren-mode 1)                               ; Highlight matching parentheses
 
 (provide 'init-better-defaults)
-

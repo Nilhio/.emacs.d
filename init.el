@@ -8,16 +8,14 @@
 (menu-bar-mode -1)
 (toggle-scroll-bar -1)
 (tool-bar-mode -1)
-(setq make-backup-files nil)
-(setq create-lockfiles nil)
 (setq visible-bell 1)
 ;; Auto reload file from disk
 (global-auto-revert-mode t)
 ;;Save backup files in custom direcotory
 (setq backup-directory-alist
-  `(".*" ,"~/emacs/backups"))
+      `(".*" ,"~/.emacs.d/backup/"))
 (setq auto-save-file-name-transforms
-  `((".*" "~/emacs/saves" t)))
+      `((".*" "~/.emacs.d/backup/" t)))
 
 ;; Install and init packages
 (add-to-list 'load-path "~/.emacs.d/packages")
