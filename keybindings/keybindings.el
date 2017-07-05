@@ -13,6 +13,9 @@
   (define-key helm-map (kbd "TAB") #'helm-execute-persistent-action))
 
 ;;Skip non-useful buffers when cycling buffers
+(global-set-key (kbd "C-x n") 'next-useful-buffer)
+(global-set-key (kbd "C-x p") 'prev-useful-buffer)
+
 (defun next-useful-buffer ()
   (interactive)
   (let (( bread-crumb (buffer-name) ))
