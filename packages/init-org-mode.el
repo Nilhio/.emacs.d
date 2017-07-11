@@ -10,4 +10,10 @@
 
 (use-package toc-org :after org)
 
+(setq org-capture-templates
+  '(("n" "Note" entry (file+headline "~/Dropbox/emacs/org/notes.org" "Notes")
+     "* Note %?\n%T"))
+)
+
+
 (provide 'init-org-mode)

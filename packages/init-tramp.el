@@ -7,7 +7,5 @@
                 "-o ControlMaster=auto "
                 "-o ControlPersist=no")))
 
-(use-package vagrant-tramp
-  :ensure t)
 
 (provide 'init-tramp)

@@ -27,8 +27,8 @@
 (require 'init-rust-mode)
 (require 'init-cargo)
 (require 'init-ace-window)
-(require 'init-doom-theme)
 (require 'init-drag-stuff)
+(require 'init-zenburn-theme)
 (require 'init-markdown-mode)
 (require 'init-dumb-jump)
 (require 'init-whitespace)
@@ -48,11 +48,10 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (which-key vagrant-tramp use-package racer projectile markdown-mode hydra helm-swoop expand-region evil dumb-jump drag-stuff doom-themes dashboard company cargo bind-map ace-window))))
+    (zenburn-theme which-key use-package racer projectile markdown-mode helm-swoop expand-region dumb-jump drag-stuff doom-themes company cargo ace-window))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
-(put 'set-goal-column 'disabled nil)
