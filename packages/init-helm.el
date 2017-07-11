@@ -19,12 +19,16 @@
 (use-package helm-files
   :after helm
   :ensure nil
-  :bind ("C-x C-f" . helm-find-files))
+  :bind (("C-x C-f" . helm-find-files)
+         ("C-x f" . helm-recentf)
+         ("M-y" . helm-show-kill-ring)
+         ("C-x r b" . helm-filtered-bookmarks)
+         ("C-x b" . helm-buffers-list))
+  )
 
 (use-package helm-swoop
   :after helm
   :ensure t
   :bind ("C-s" . helm-swoop))
-
 
 (provide 'init-helm)
