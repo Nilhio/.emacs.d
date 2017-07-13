@@ -36,6 +36,7 @@
 (require 'init-expand-region)
 (require 'init-which-key)
 (require 'init-tramp)
+(require 'init-elfeed)
 
 ;; Keybindings
 (add-to-list 'load-path "~/.emacs.d/keybindings")

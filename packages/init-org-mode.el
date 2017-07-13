@@ -1,5 +1,12 @@
 (use-package org
   :ensure t
+  :config
+  (setq org-agenda-files '("~/Dropbox/emacs/org/"))
+  (setq org-capture-templates
+      '(("t" "Todo" entry (file+headline "~/Dropbox/emacs/org/notes.org" "Tasks")
+         "* TODO %?\n  %i\n  %a")
+        ("n" "Note" entry (file+headline "~/Dropbox/emacs/org/notes.org" "Notes")
+         "* Note %?\n%T")))
 )
 
 (use-package org-sticky-header
@@ -9,11 +16,5 @@
    org-sticky-header-outline-path-separator " / "))
 
 (use-package toc-org :after org)
-
-(setq org-capture-templates
-  '(("n" "Note" entry (file+headline "~/Dropbox/emacs/org/notes.org" "Notes")
-     "* Note %?\n%T"))
-)
-
 
 (provide 'init-org-mode)
