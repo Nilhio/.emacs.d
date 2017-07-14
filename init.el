@@ -13,7 +13,7 @@
 ;; Auto reload file from disk
 (global-auto-revert-mode t)
 ;;Save backup files in custom direcotory
-(defvar savedir "~/emacs.d/backup")
+(defvar savedir "~/.emacs.d/backup")
 (setq backup-directory-alist `((".*" . ,savedir)))
 (setq auto-save-file-name-transforms `((".*" ,savedir t)))
 

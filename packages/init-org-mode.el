@@ -7,6 +7,7 @@
          "* TODO %?\n  %i\n  %a")
         ("n" "Note" entry (file+headline "~/Dropbox/emacs/org/notes.org" "Notes")
          "* Note %?\n%T")))
+  :bind (("C-c c" . org-capture))
 )
 
 (use-package org-sticky-header
