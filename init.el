@@ -28,7 +28,6 @@
 (require 'init-cargo)
 (require 'init-ace-window)
 (require 'init-drag-stuff)
-(require 'init-zenburn-theme)
 (require 'init-markdown-mode)
 (require 'init-dumb-jump)
 (require 'init-whitespace)
@@ -37,6 +36,13 @@
 (require 'init-which-key)
 (require 'init-tramp)
 (require 'init-elfeed)
+;; Themes
+;;(require 'init-zenburn-theme)
+;;(require  'init-solarized-theme)
+;;(require 'init-darktooth-theme)
+(require 'init-kaolin-theme)
+
+
 
 ;; Keybindings
 (add-to-list 'load-path "~/.emacs.d/keybindings")
@@ -47,6 +53,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(frame-background-mode (quote dark))
  '(package-selected-packages
    (quote
     (zenburn-theme which-key use-package racer projectile markdown-mode helm-swoop expand-region dumb-jump drag-stuff doom-themes company cargo ace-window))))
