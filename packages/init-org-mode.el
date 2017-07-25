@@ -3,7 +3,7 @@
   :config
   (setq org-agenda-files '("~/Dropbox/emacs/org/"))
   (setq org-capture-templates
-      '(("t" "Todo" entry (file+headline "~/Dropbox/emacs/org/notes.org" "Tasks")
+      '(("t" "Todo" entry (file+headline "~/Dropbox/emacs/org/tasks.org" "Tasks")
          "* TODO %?\n  %i\n  %a")
         ("n" "Note" entry (file+headline "~/Dropbox/emacs/org/notes.org" "Notes")
          "* Note %?\n%T")))

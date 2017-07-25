@@ -36,6 +36,8 @@
 (require 'init-which-key)
 (require 'init-tramp)
 (require 'init-elfeed)
+(require 'init-magit)
+
 ;; Themes
 ;;(require 'init-zenburn-theme)
 ;;(require  'init-solarized-theme)
