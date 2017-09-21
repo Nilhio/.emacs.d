@@ -10,12 +10,16 @@
 (toggle-scroll-bar -1)
 (tool-bar-mode -1)
 (setq visible-bell 1)
+;; Disable some warnings.
+(setq warning-minimum-level :emergency)
 ;; Auto reload file from disk
 (global-auto-revert-mode t)
-;;Save backup files in custom direcotory
+;; Save backup files in custom direcotory
 (defvar savedir "~/.emacs.d/backup")
 (setq backup-directory-alist `((".*" . ,savedir)))
 (setq auto-save-file-name-transforms `((".*" ,savedir t)))
+;; Kill buffers without prompt
+(global-set-key [(control x) (k)] 'kill-this-buffer)
 
 ;; Install and init packages
 (add-to-list 'load-path "~/.emacs.d/packages")
@@ -37,13 +41,15 @@
 (require 'init-tramp)
 (require 'init-elfeed)
 (require 'init-magit)
+(require 'init-php-mode)
+(require 'init-reddit)
+(require 'init-multiple-cursors)
 
 ;; Themes
 ;;(require 'init-zenburn-theme)
 ;;(require  'init-solarized-theme)
 ;;(require 'init-darktooth-theme)
 (require 'init-kaolin-theme)
-
 
 
 ;; Keybindings
