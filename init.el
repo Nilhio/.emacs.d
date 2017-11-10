@@ -44,6 +44,8 @@
 (require 'init-php-mode)
 (require 'init-reddit)
 (require 'init-multiple-cursors)
+(require 'init-notmuch)
+(require 'init-yasnippet)
 
 ;; Themes
 ;;(require 'init-zenburn-theme)
