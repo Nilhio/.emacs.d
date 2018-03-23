@@ -11,7 +11,7 @@
 (tool-bar-mode -1)
 (setq visible-bell 1)
 ;; Disable some warnings.
-(setq warning-minimum-level :emergency)
+;;(setq warning-minimum-level :emergency)
 ;; Auto reload file from disk
 (global-auto-revert-mode t)
 ;; Save backup files in custom direcotory
@@ -46,6 +46,7 @@
 (require 'init-multiple-cursors)
 (require 'init-notmuch)
 (require 'init-yasnippet)
+(require 'init-meghanada)
 
 ;; Themes
 ;;(require 'init-zenburn-theme)
