@@ -5,7 +5,7 @@
 (global-unset-key (kbd "<down>"))
 
 ;;Avy keybindings
-(global-set-key (kbd "C-;") 'avy-goto-char)
+(global-set-key (kbd "C-;") 'avy-goto-char-timer)
 (global-set-key (kbd "C-M-;") 'avy-goto-word-1)
 
 ;; Tab auto completion on helm minibuffer.
