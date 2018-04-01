@@ -15,14 +15,17 @@
 ;; Auto reload file from disk
 (global-auto-revert-mode t)
 ;; Save backup files in custom direcotory
-(defvar savedir "~/.emacs.d/backup")
-(setq backup-directory-alist `((".*" . ,savedir)))
-(setq auto-save-file-name-transforms `((".*" ,savedir t)))
+;; disable backup
+(setq backup-inhibited t)
+;; disable auto save
+(setq auto-save-default nil)
+(setq backup-directory-alist `(("." . "/tmp/emacs-backup")))
+
 ;; Kill buffers without prompt
 (global-set-key [(control x) (k)] 'kill-this-buffer)
 
-;; Install and init packages
-(add-to-list 'load-path "~/.emacs.d/packages")
+;; Install and init core packages
+(add-to-list 'load-path "~/.emacs.d/core")
 (require 'init-better-defaults)
 (require 'init-use-package)
 (require 'init-company)
@@ -47,6 +50,7 @@
 (require 'init-notmuch)
 (require 'init-yasnippet)
 (require 'init-meghanada)
+(require 'init-flycheck)
 
 ;; Themes
 ;;(require 'init-zenburn-theme)
