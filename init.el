@@ -49,7 +49,7 @@
 (require 'init-multiple-cursors)
 (require 'init-notmuch)
 (require 'init-yasnippet)
-(require 'init-meghanada)
+;;(require 'init-meghanada)
 (require 'init-flycheck)
 (require 'init-web-mode)
 
