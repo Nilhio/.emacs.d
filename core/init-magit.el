@@ -58,7 +58,8 @@
     (define-key magit-mode-map "c" 'magit-maybe-commit)
 
     ;; major mode for editing `git rebase -i` files
-    (use-package rebase-mode)
+    (use-package rebase-mode
+      :ensure t)
 
     ;; magit settings
     (setq

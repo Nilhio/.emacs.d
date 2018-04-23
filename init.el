@@ -69,7 +69,7 @@
  '(frame-background-mode (quote dark))
  '(package-selected-packages
    (quote
-    (toc-org org-sticky-header zenburn-theme which-key use-package racer projectile markdown-mode helm-swoop expand-region dumb-jump drag-stuff doom-themes company cargo ace-window))))
+    (rebase-mode toc-org org-sticky-header zenburn-theme which-key use-package racer projectile markdown-mode helm-swoop expand-region dumb-jump drag-stuff doom-themes company cargo ace-window))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
