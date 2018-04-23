@@ -40,7 +40,7 @@
 (put 'upcase-region 'disabled nil)                                        ; Enable upcase-region
 (set-frame-parameter nil 'fullscreen 'maximized)                          ; Maximize the frame
 (show-paren-mode 1)                                                       ; Highlight matching parentheses
-(set-face-attribute 'region nil :background "#666" :foreground "#ffffff") ; Better highlghting on selected regiion
+(set-face-attribute 'region nil :background "#e6e6ff" :foreground "#ffffff") ; Better highlghting on selected regiion
 
 
 (provide 'init-better-defaults)
