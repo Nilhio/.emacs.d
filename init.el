@@ -52,6 +52,7 @@
 ;;(require 'init-meghanada)
 (require 'init-flycheck)
 (require 'init-web-mode)
+(require 'init-zencoding-mode)
 
 ;; Themes
 (add-to-list 'load-path "~/.emacs.d/themes")

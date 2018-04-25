@@ -6,7 +6,9 @@
       '(("t" "Todo" entry (file+headline "~/Dropbox/Notes/org/tasks.org" "Tasks")
          "* TODO %?\n  %i\n  %a")
         ("n" "Note" entry (file+headline "~/Dropbox/Notes/org/notes.org" "Notes")
-         "* Note %?\n%T")))
+         "* Note %?\n%T")
+        ("w" "Todo Work" entry (file+headline "~/Dropbox/Notes/org/tasks.org" "Work tasks")
+         "* TODO %?\n  %i\n  %a")))
   :bind (("C-c c" . org-capture))
 )
 
