@@ -29,21 +29,21 @@
 (require 'init-better-defaults)
 (require 'init-use-package)
 (require 'init-company)
+(require 'init-which-key)
 (require 'init-helm)
 (require 'init-avy)
 (require 'init-rust-mode)
 (require 'init-cargo)
-(require 'init-ace-window)
 (require 'init-drag-stuff)
 (require 'init-markdown-mode)
 (require 'init-dumb-jump)
 (require 'init-whitespace)
 (require 'init-org-mode)
 (require 'init-expand-region)
-(require 'init-which-key)
 (require 'init-tramp)
 (require 'init-elfeed)
 (require 'init-magit)
+(require 'init-lsp)
 ;;(require 'init-php-mode)
 ;;(require 'init-reddit)
 ;;:(require 'init-multiple-cursors)
@@ -54,6 +54,8 @@
 ;;(require 'init-web-mode)
 ;;(require 'init-zencoding-mode)
 
+
+;; -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 ;; Themes
 (add-to-list 'load-path "~/.emacs.d/themes")
 ;;(require 'init-gruvbox-theme)
